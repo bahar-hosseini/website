@@ -34,8 +34,8 @@ return(<div>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row ">Python</th>
-                            <td>Django</td>
+                            <th scope="row ">-</th>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th scope="row ">HTML & CSS</th>
