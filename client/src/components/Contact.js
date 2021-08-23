@@ -31,7 +31,7 @@ useEffect((e) => {
 </div>
 
 <div className=" bg-dark pt-3 rounded-3">
-    <form action='http://localhost:5000' method='post' className="text-center row justify-content-center ">
+    <form action='http://bahosseini.com' method='post' className="text-center row justify-content-center ">
         <div className="form-group col-lg-7 col-md-8 col-sm-8">
             <label for="inputEmail "></label>
             <input className="form-control " id="inputID " type="text " name="emailTitle" placeholder="Email "></input>
