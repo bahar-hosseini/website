@@ -17,7 +17,8 @@ router.post("/", (req, res)=>{
     post.save(
       (err)=>{
       if(!err){
-        res.redirect("https://bahosseini.com/#contacts")
+
+        res.redirect("https://bahosseini.com")
       }else{
         res.send(`the err is :${err}`)
       }
