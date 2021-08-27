@@ -17,7 +17,7 @@ router.post("/", (req, res)=>{
     post.save(
       (err)=>{
       if(!err){
-        res.redirect("http://localhost:3000")
+        res.redirect("https://bahosseini.com/#contacts")
       }else{
         res.send(`the err is :${err}`)
       }

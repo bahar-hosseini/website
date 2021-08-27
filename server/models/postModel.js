@@ -1,14 +1,16 @@
 import mongoose from "mongoose"
 import timestamps from 'mongoose-timestamp';
 
-const postSchema=mongoose.Schema({
+const postSchema=new mongoose.Schema({
     email:{
         type:String,
         require:true,
+        index:true, unique:true,sparse:true
     },
     subject:{
         type:String,
-        require:true
+        require:true,
+
     },
     message:{
         type:String,
