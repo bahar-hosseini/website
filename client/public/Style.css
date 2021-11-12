@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*# sourceMappingURL=Style.css.map */
+
+
+/****************************************************************************/
+
+
+
+body {
+  background-color: #fff font-family 'Raleway', sans-serif;
+}
+
+.about {
+  background-color: #222831;
+}
+
+h1,
+h2,
+h3,
+h4,
+span,
+p,
+small {
+  font-family: 'Nunito, Raleway, sans-serif';
+}
+
+
+/* Big Heading*/
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 200;
+}
+
+hr.about-line {
+  border: 5px solid #ffc904c7;
+  border-radius: 4px;
+}
+
+#mainNavbar {
+  font-size: 1.5 rem;
+  font-weight: 100;
+  font-family: 'Raleway, Nunito, Arial, Helvetica, sans-serif';
+  background-color: #fff;
+}
+
+.sidebar {
+  position: fixed;
+  left: 96%;
+  top: 40%;
+  
+
+}
+.sidebar a { color: inherit; }
+
+#mainNavbar .nav-link {
+  color: #222831;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ffc904c7;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ffc904c7;
+}
+
+#headingGroup span {
+  color: #ffc904c7;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+#headingGroup h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+#mainNavbar.scrolled {
+  box-sizing: border-box;
+  padding: 1em;
+  transition: background-color .25s;
+}
+
+@media(max-width:1200px) {
+  #headingGroup h2 {
+      font-weight: 100;
+      font-size: 2rem;
+  }
+}
+
+.titleGroup h2 {
+  font-weight: 80;
+  font-size: 1.75rem;
+}
+
+.titleGroup p {
+  font-weight: 40;
+  font-size: 1rem;
+}
+
+.titleGroup span {
+  color: #ffc904c7;
+}
+
+.btn {
+  background: linear-gradient(#ffd369, #ffc904c7);
+}
+
+div.btn:hover {
+  opacity: 0.2;
+}
+
+
+/* Education */
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #5c5951;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline>li {
+  margin: 20px 25px;
+  padding-left: 20px;
+}
+
+ul.timeline>li:before {
+  content: ' ';
+  background: rgb(0, 0, 0);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #ffc904c7;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.EXP-EDU {
+  background-color: #ffc904c7
+}
+
+.backgroundTable {
+  background-color: #eeeeee;
+}
+
+.bgPortfolio {
+  background-color: #222831;
+  ;
+}
+
+small {
+  font-size: x-small;
+}
+
+.bgResume {
+  background-image: url('./images/bg-table.jpg');
+}
+
+.bg-skills {
+  background-image: url('./images/main-grey-bg.jpg');
+}
+/*      */
+.footer {
+  overflow: hidden;
+  position: fixed;
+
+}
+
