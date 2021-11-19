@@ -11,7 +11,7 @@ function Navbar() {
 
     return ( 
         <Router>
-        <div className = "container">   
+        <div className = "">   
         <nav id = "mainNavbar"
         class = "navbar navbar-expand-md py-0 fixed-top " >
         <Link  to = "/#"
@@ -26,7 +26,7 @@ function Navbar() {
         id = "navLinks" >
         <ul className = "navbar-nav" >
         <li className = "nav-item" >
-        <Link smooth activeClass="active" to="#home"
+        <Link smooth activeClass="active" to="#"
         className = "nav-link" > HOME </Link>
         </li>
         <li className = "nav-item">
@@ -38,8 +38,8 @@ function Navbar() {
         className = "nav-link" > RESUME </Link>
         </li>
         <li className = "nav-item" >
-        <Link  smooth to = "#portfolio"
-        className = "nav-link" > PORTFOLIO </Link> </li>
+        <Link  smooth to = "#blog"
+        className = "nav-link" > BLOG </Link> </li>
         <li className = "nav-item" >
         <Link  smooth to= "#contacts"
         className = "nav-link" > CONTACTS </Link>

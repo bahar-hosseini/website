@@ -20,11 +20,11 @@ return(
             </div>
         </div>
 
-         <div className="container-fluid bgPortfolio">
+         <div className="bgPortfolio">
           <div className="align-self-center text-center">
                <div className='row'>
                
-          <div className="text-center titleGroup p-5">
+          <div id='typewrite' className="text-center titleGroup p-5">
               <h2>Click on a product to learn more</h2>
          </div>
         <Slide easing="ease" className='slider'>

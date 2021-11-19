@@ -20,7 +20,7 @@ function Home() {
         </div>
         </div>
         <div className = "col-lg-8 col-sm-4 col-md-4 mt-5">
-        <img className = "img-fluid homeBg " src={'/images/programming-img.png'} alt='home page' />
+        <img className = "float-end homeBg " src={'/images/programming-img.png'} alt='home page' />
         </div>
         <div id = "typewrite" className = "text-center py-3 mt-5" >
         <TypeAnimation/>
