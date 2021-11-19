@@ -11,9 +11,7 @@ function About() {
                     <div className=" row text-center justify-content-start d-lg-inline-block animate__animated animate__bounce titleGroup ">
                         <div className="mb-5 titleGroup">
                             <h2 className="text-center text-light py-3 "> <span>ABOUT</span> ME</h2>
-                            <p className="text-light lead ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsum a hic. Dicta quos fugit dolores maiores doloribus amet a libero! Sint quia reiciendis, aperiam magnam distinctio dignissimos incidunt esse consequuntur
-                                accusamus, non laudantium autem doloremque culpa omnis quaerat debitis rem consequatur molestiae commodi quidem vel repudiandae a. Reiciendis, ducimus deserunt asperiores dignissimos non vero ipsam soluta harum, exercitationem,
-                                incidunt suscipit blanditiis velit quo quam error autem assumenda et laborum.</p>
+                            <p className="text-light lead ">I am a passionate full-stack software engineer who loves solving real-world problems using software. I have experience working for small, mid-size and large companies and this experience helps me to look at problems from different angles. My goal is not only to grow as an individual but also help my team grow and succeed.</p>
                             <hr className="about-line text-center "></hr>
                             <div className="text-white row ">
                                 <div className="col ">

@@ -1,57 +1,64 @@
 import React from "react"
-import {HashLink as Link } from 'react-router-hash-link';
-import {BrowserRouter as Router} from 'react-router-dom'
+// import {HashLink as Link } from 'react-router-hash-link';
+// import {BrowserRouter as Router} from 'react-router-dom'
 
 
 
 
 
 function Navbar() {
-
+ 
 
     return ( 
-        <Router>
-        <div className = "container-fluid">   
+
+
+
+
+        <div className = "container">   
         <nav id = "mainNavbar"
         class = "navbar navbar-expand-md py-0 fixed-top " >
-        <Link  to = "/#"
-        className = "navbar-brand" > BH </Link>
+        <a  href = "/"
+        className = "navbar-brand" > BH </a>
         <button className = "navbar-toggler sm"
         dataToggle = "collapse"
         dataTarget = "#navLinks"
         ariaLabel = "Toggle navigation" >
-        {/* <i className = "fas fa-bars"/> */}
-
+        <i className = "fas fa-bars " > </i>
         </button>
         <div className = "collapse navbar-collapse"
         id = "navLinks" >
         <ul className = "navbar-nav" >
         <li className = "nav-item" >
-        <Link smooth activeClass="active" to="#home"
-        className = "nav-link" > HOME </Link>
+        <a smooth href="#home"
+        className = "nav-link"> HOME </a>
         </li>
         <li className = "nav-item">
-        <Link smooth to = "#about" 
-        className = "nav-link"> ABOUT </Link>
+        <a smooth href= "#about" 
+        className = "nav-link"> ABOUT </a>
         </li>
         <li className = "nav-item" >
-        <Link smooth to="#resume"
-        className = "nav-link" > RESUME </Link>
+        <a smooth href="#resume"
+        className = "nav-link" > RESUME </a>
         </li>
         <li className = "nav-item" >
-        <Link  smooth to = "#portfolio"
-        className = "nav-link" > PORTFOLIO </Link> </li>
+        <a smooth href="#portfolio"
+        className = "nav-link" > PORTFOLIO </a> </li>
         <li className = "nav-item" >
-        <Link  smooth to= "#contacts"
-        className = "nav-link" > CONTACTS </Link>
+        <a  smooth href= "#contacts"
+        className = "nav-link" > CONTACTS </a>
         </li>
         </ul>
         </div>
         </nav>
         </div>
-  </Router>
+
+
         )
     }
     
 
     export default Navbar;
+
+
+////////////////////////////
+

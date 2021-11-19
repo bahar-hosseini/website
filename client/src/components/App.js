@@ -13,18 +13,19 @@ import Contact from "./Contact"
 
 
 
+
+
 function App() {
 
     return (<div>
     <main>
-   
         <Navbar />
         <Sidebar />
         <Home />
         <About />   
         <Skills />
-        <EduExp />   
         <Portfolio />
+        <EduExp />   
         <Blog /> 
         <Contact />
         </main>   

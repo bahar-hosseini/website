@@ -2,16 +2,16 @@ import React from "react"
 
 function Skills(){
 return(<div>
-<div className="bg-light py-5">
+<div className="bg-light py-3">
         <div className=" row text-center animate__animated animate__bounce titleGroup">
             <h2> <span>S</span>KILLS</h2>
-            <h4>GET IN TOUCH</h4>
             <i className="fas fa-magic "></i>
         </div>
     </div>
-        <div className="container-fluid row bg-skills py-5">
-            <div className="col-lg-6 table-responsive-lg">
-                <table className="table table-hover table-sm ">
+   <div class="container-fluid">
+        <div className="row skillTable bg-skills p-lg-1">
+            <div className="col-lg-6 table-responsive-lg p-3 ">
+                <table className="table table-hover table-sm mr-5">
                     <thead class="table-dark ">
                         <tr>
                             <th scope="col">Languages</th>
@@ -32,7 +32,7 @@ return(<div>
                             <td>ExpressJS</td>
                             <td>WebSockets</td>
                             {/* <td>template engine: pug, ejs, handlebars</td> */}
-                            <td>Ejs</td>
+                            <td>EJS</td>
                             <td></td>
                         </tr>
                         <tr>
@@ -42,16 +42,17 @@ return(<div>
                         <tr>
                             <th scope="row ">HTML & CSS</th>
                             <td>LESS</td>
-                            <td>SASS</td>
+                            <td>SASS/SCSS</td>
                             <td>Bootstrap</td>
-                            <td>MorrisJS</td>
+                            <td>Material-UI</td>
+                            <td>Semantic UI</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
-            <div className=" col-lg-6 table-responsive flex-container ">
-                <table className="table table-hover table-sm ">
+            <div className=" col-lg-6 p-3 table-responsive">
+                <table className="table table-hover table-sm mr-5">
                     <thead className="table-dark ">
                         <tr>
                             <th scope="col " colspan="5 ">Other Skills</th>
@@ -74,18 +75,18 @@ return(<div>
                         </tr>
                         <tr>
                             <th scope="row ">Git</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row ">GitHub</th>
-                            <td></td>
+                            <td>GitHub</td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
+                        {/* <tr>
+                            <th scope="row "></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr> */}
                         <tr>
                             <th scope="row ">Heroku</th>
                             <td></td>
@@ -112,8 +113,8 @@ return(<div>
                 </table>
             </div>
 
-            <div className="col-lg-6 table-responsive flex-container ">
-                <table className="table table-hover table-sm ">
+            <div className="col-lg-6 p-3 table-responsive ">
+                <table className="table table-hover table-sm mr-3">
                     <thead className="table-dark ">
                         <tr>
                             <th scope="col " colspan="5 ">Databases</th>
@@ -138,8 +139,8 @@ return(<div>
                 </table>
             </div>
 
-            <div className=" col-lg-6 table-responsive flex-container ">
-                <table className="table table-hover table-sm ">
+            <div className=" col-lg-6 p-3 table-responsive ">
+                <table className="table table-hover table-sm mr-3">
                     <thead className="table-dark ">
                         <tr>
                             <th scope="col" colspan="5">Automated Testing</th>
@@ -156,6 +157,7 @@ return(<div>
                 </table>
             </div>
         </div>
+    </div>    
 </div>);
 }
 export default Skills;

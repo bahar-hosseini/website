@@ -1,13 +1,23 @@
-import React from "react"
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+
+
 
 
 function Blog(){
+    const slideImages = [
+        '/images/cloud.png',
+        '/images/cloud.png',
+        '/images/cloud.png'
+      ];
 return(
   <div id='blog'>
-  <div className="bg-light py-5">
+  <div className="bg-light py-3">
     <div className="text-center  animate__animated animate__bounce titleGroup">
         <h2> <span>BLOG </span> POSTS</h2>
-        <h4>LATEST ARTICLES</h4>
+        <h6>LATEST ARTICLES</h6>
         <h1><i className="fas fa-comments pt-2 "></i></h1>
     </div>
 </div>
@@ -28,7 +38,8 @@ return(
     </div>
     <button className="btn btn-warning rounded-pill align-self-center mb-2" type="submit " name="button ">SEE ALL POSTS</button>
 </div>
-  </div>
+</div>
+
 )
 }
 

@@ -113,17 +113,17 @@ setMouseOver(true)
 
   return(
     <div id='contacts'>
-    <div className="bg-light py-5">
+    <div className="bg-light py-3">
     <div className=" row text-center d-lg-block animate__animated animate__bounce titleGroup">
         <h2> <span>CONTACT</span> ME</h2>
-        <h4>GET IN TOUCH</h4>
+        <h6>GET IN TOUCH</h6>
         <i className="fas fa-envelope "/>
     </div>
 </div>
 
-<div className=" bg-dark pt-3 rounded-3">
-    <form action='/' method='POST' className="text-center row justify-content-center " onSubmit={handleSubmit}>
-        <div className="form-group col-lg-7 col-md-8 col-sm-8">
+<div className=" bg-dark rounded-3">
+    <form action='/' method='POST' className="text-center row justify-content-center pl-5 pr-5 pt-5" onSubmit={handleSubmit}>
+        <div className="form-group col-lg-6 col-md-6 col-sm-6">
             <label for="email"></label>
             <input className="form-control " id="emailID " type="text " name="email" placeholder="Email" value={email} onChange={e=>setEmail(e.target.value)} />
             <label for="col-form-label "></label>

@@ -3,11 +3,11 @@ import React from "react"
 
 function EduExp(){
   return(<div id='resume'>
-    <div className="bg-light py-5 ">
+    <div className="bg-light py-3 ">
         <div className="text-center animate__animated animate__bounce titleGroup">
             <h2 className="pb-2 "><span>RE</span>SUME</h2>
             <div><button className="btn text-center rounded-pill " type="submit " name="button ">
-            <a style={{color: 'inherit'}} href="/Bahar_Hosseini_Resume.pdf" download className="far fa-file ">DOWNLOAD CV </a>
+            <a style={{color: 'inherit'}} href="Bahar_Hosseini_Resume.pdf" download className="far fa-file ">DOWNLOAD CV </a>
                </button></div>
 
         </div>
@@ -22,7 +22,7 @@ function EduExp(){
                         <thead className="EXP-EDU">
                             <tr>
                                 <th scope="col ">
-                                    <h2 class="text-center py-1">EDUCATION</h2>
+                                    <h3 class="text-center py-1">EDUCATION</h3>
                                 </th>
                             </tr>
                         </thead>
@@ -32,14 +32,15 @@ function EduExp(){
                                     <th scope="row ">
                                         <ul className="timeline ">
                                             <li>
-                                                <h1>New Web Design</h1>
-                                                <a href="# " className="float-right ">21 March, 2014</a>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                                <h4>Master of Industrial Engineering</h4>
+                                                {/* <a href="# " className="float-right ">21 March, 2014</a> */}
+                                                <p><b>Science and Research, Tehran, Iran</b></p>
                                             </li>
                                             <li>
-                                                <a href="# ">21 000 Job Seekers</a>
-                                                <a href="# " className="float-right ">4 March, 2014</a>
-                                                <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                                            <h4>Bachelors of Industrial Engineering</h4>
+                                                {/* <a href="# ">21 000 Job Seekers</a>
+                                                <a href="# " className="float-right ">4 March, 2014</a> */}
+                                                <p><b>Iran University of Science and Technology- Tehran, Iran</b></p>
                                             </li>
                                             <li>
                                                 <a href="# ">Awesome Employers</a>
@@ -60,7 +61,7 @@ function EduExp(){
                         <thead className="EXP-EDU ">
                             <tr>
                                 <th scope="col ">
-                                    <h2 className="text-center py-1">EXPERIENCE</h2>
+                                    <h3 className="text-center py-1">EXPERIENCE</h3>
                                 </th>
                             </tr>
                         </thead>
@@ -70,19 +71,20 @@ function EduExp(){
                                     <th scope="row ">
                                         <ul className="timeline ">
                                             <li>
-                                                <h2>New Web Design</h2>
-                                                <h3>21 March, 2014</h3>
+                                                <h4>Freelance</h4>
+                                                <h6>21 March, 2014</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
                                             </li>
+                                        
                                             <li>
-                                                <a href="# ">21 000 Job Seekers</a>
-                                                <a href="# " className="float-right ">4 March, 2014</a>
+                                                <h4>Project Manager</h4>
+                                                <h6><b>Pishro Cloud Computing - Tehran, Iran</b></h6>
                                                 <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
                                             </li>
                                             <li>
-                                                <a href="# ">Awesome Employers</a>
-                                                <a href="# " className="float-right ">1 April, 2014</a>
-                                                <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                                            <h4>Assistant Project Manager</h4>
+                                                <h6><b>Sharif ICT Innovation Center-Tehran, Iran</b></h6>
+                                                <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
                                             </li>
                                         </ul>
                                     </th>
