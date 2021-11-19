@@ -3,8 +3,15 @@ import React from "react"
 
 
 function About() {
-    return (<div id="about" className='about'>
-        <div className=" container-fluid px-2 about-container py-5">
+    return (
+    <div>
+    {/* <div>
+    <img className = "float-end femaleImage col-lg-3 col-md-5 col-sm-3 pl-4" src={'/images/female.png'} alt='female-tech' />
+        <img className = "float-end col-lg-4 col-md-5 col-sm-3" src={'/images/yellow-shape.png'} alt='robot' />
+    </div> */}
+    
+    <div id="about" className='about'>
+        <div className=" container-fluid px-2 about-container py-3">
             <div className="row align-items-center">
                 <img className="img-fluid col-lg-4 col-sm-3 profileBahar p-5" src={"/images/bahar.png"} alt=" Home IMG "/>
                 <div className="col-lg-8 col-sm-9">
@@ -28,6 +35,7 @@ function About() {
 
                 </div>
             </div>
+        </div>
         </div>
 </div>
     )

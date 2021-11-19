@@ -21,7 +21,7 @@ return(
             <p className="py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia optio molestiae possimus rem, aut provident inventore reprehenderit saepe eius soluta.0</p>
         </div>
         <div className="col-lg-4 col-md-10 ">
-            <img className="img-fluid " src={"/images/cloud.png"} alt="blog2" ></img>
+            <img className="img-fluid  blogImage" src={"/images/head-phone.jpg"} alt="blog2" ></img>
             <p className="py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia optio molestiae possimus rem, aut provident inventore reprehenderit saepe eius soluta.0</p>
         </div>
         <div className="col-lg-4 col-md-10 ">

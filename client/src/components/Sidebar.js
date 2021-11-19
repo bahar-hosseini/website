@@ -2,7 +2,8 @@ import React from "react"
 
 function Sidebar() {
 
-    return ( <div className=''>
+    return ( 
+    <div>
         <section className = "sidebar" >
         <div className = "text-center">
         <table style={{backgroundColor:'#FECE2E'}} className = "table" >

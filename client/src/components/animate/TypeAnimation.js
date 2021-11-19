@@ -72,7 +72,7 @@ const TypeAnimation = () => {
     return (
     <div>
 { isDesktop ?
-  <h3 href="" className="typewrite" data-period="2000" data-type='[ "A FULL - STACK SOFTWARE ENGINEER" ]'>
+  <h3 href="" className="typewrite" data-period="2000" data-type='[ "A FULL-STACK SOFTWARE ENGINEER" ]'>
     <span class="wrap"></span>
   </h3> 
   :   <h6 href="" className="typewrite" data-period="2000" data-type='[ "A FULL - STACK SOFTWARE ENGINEER" ]'>

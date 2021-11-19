@@ -7,7 +7,7 @@ function EduExp(){
         <div className="text-center animate__animated animate__bounce titleGroup">
             <h2 className="pb-2 "><span>RE</span>SUME</h2>
             <div><button className="btn text-center rounded-pill " type="submit " name="button ">
-            <a style={{color: 'inherit'}} href="Bahar_Hosseini_Resume.pdf" download className="far fa-file ">DOWNLOAD CV </a>
+            <a style={{color: 'inherit'}} href="Bahar_Hosseini_Resume.pdf" download className="far fa-file ">  DOWNLOAD CV </a>
                </button></div>
 
         </div>

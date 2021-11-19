@@ -25,29 +25,29 @@ return(
                <div className='row'>
                
           <div id='typewrite' className="text-center titleGroup p-5">
-              <h2>Click on a product to learn more</h2>
+              <h3>Click on a product to learn more</h3>
          </div>
         <Slide easing="ease" className='slider'>
           <div className="each-slide">
-            <div  style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            <div  style={{'backgroundImage': `url(${slideImages[0]})`,borderRadius:'30px'}}>
             </div>
-            <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
+            {/* <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
             <a style={{color: 'inherit'}} href='https://www.google.com/'>View</a>
-               </button>
+               </button> */}
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            <div style={{'backgroundImage': `url(${slideImages[1]})`,borderRadius:'30px'}}>
             </div>
-                 <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
+                 {/* <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
             <a style={{color: 'inherit'}} href='https://www.google.com/'>View</a>
-               </button>
+               </button> */}
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+            <div style={{'backgroundImage': `url(${slideImages[2]})`,borderRadius:'30px'}}>
             </div>
-            <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
+            {/* <button className="btn text-center rounded-pill my-3" type="submit " name="button ">
             <a style={{color: 'inherit'}} href='https://www.google.com/'>View</a>
-               </button>
+               </button> */}
           </div>
         </Slide>
         
