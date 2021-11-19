@@ -15,14 +15,14 @@ function EduExp(){
 
 
     <section>
-        <div className="container-fluid">
-            <div className="row bgResume p-5">
-                <div className="col-lg-6 ">
+        <div className="">
+            <div className="row bgResume">
+                <div className="col-lg-6 py-5 pr-5 pl-5">
                     <table className="table table-hover">
                         <thead className="EXP-EDU">
                             <tr>
-                                <th scope="col ">
-                                    <h3 class="text-center py-1">EDUCATION</h3>
+                                <th scope="col">
+                                    <h3 class="text-center">EDUCATION</h3>
                                 </th>
                             </tr>
                         </thead>
@@ -34,13 +34,13 @@ function EduExp(){
                                             <li>
                                                 <h4>Master of Industrial Engineering</h4>
                                                 {/* <a href="# " className="float-right ">21 March, 2014</a> */}
-                                                <p><b>Science and Research, Tehran, Iran</b></p>
+                                                <p>Science and Research, Tehran, Iran</p>
                                             </li>
                                             <li>
                                             <h4>Bachelors of Industrial Engineering</h4>
                                                 {/* <a href="# ">21 000 Job Seekers</a>
                                                 <a href="# " className="float-right ">4 March, 2014</a> */}
-                                                <p><b>Iran University of Science and Technology- Tehran, Iran</b></p>
+                                                <p>Iran University of Science and Technology- Tehran, Iran</p>
                                             </li>
                                             <li>
                                                 <a href="# ">Awesome Employers</a>
@@ -56,7 +56,7 @@ function EduExp(){
 
 
                 </div>
-                <div className="col-lg-6 ">
+                <div className="col-lg-6 py-5 pr-5">
                     <table className="table table-hover ">
                         <thead className="EXP-EDU ">
                             <tr>

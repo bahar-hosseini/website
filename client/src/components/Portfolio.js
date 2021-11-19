@@ -4,7 +4,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 
-function Portfolio(){
+const Portfolio=()=>{
     const slideImages = [
         '/images/portfolio.jpg',
         '/images/portfolio.jpg',
@@ -25,7 +25,7 @@ return(
                <div className='row'>
                
           <div className="text-center titleGroup p-5">
-              <h2><span>Click on a product to learn more</span></h2>
+              <h2>Click on a product to learn more</h2>
          </div>
         <Slide easing="ease" className='slider'>
           <div className="each-slide">
@@ -55,9 +55,6 @@ return(
      </div>
     </div>
     </div>
-  
-
-
 );
 }
 

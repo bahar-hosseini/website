@@ -1,17 +1,10 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
 
 
 
 
 
 function Blog(){
-    const slideImages = [
-        '/images/cloud.png',
-        '/images/cloud.png',
-        '/images/cloud.png'
-      ];
 return(
   <div id='blog'>
   <div className="bg-light py-3">

@@ -105,14 +105,14 @@ hr.about-line {
 
  .sidebar { 
   position: fixed;
-  left: 97%;
+  left: 98%;
   top: 40%;
   /* z-index: 1; */
   }
   @media screen and (max-width: 375px) {
   .sidebar {
   position: fixed;
-  left: 94%;
+  left: 93%;
   top: 40%;
   z-index: 1;
   }
@@ -123,7 +123,10 @@ hr.about-line {
 .sidebar a { color: inherit; }
 
 
-
+#mainNavbar{
+  position:fixed;
+  z-index: 1;
+}
 #mainNavbar .nav-link {
   color: #222831;
 }
@@ -183,10 +186,10 @@ div.btn:hover {
 }
 
 /* HOME */
-.homeBg{
+/* .homeBg{ */
   /* position: relative;
 z-index: 1; */
-}
+/* } */
 
 /* Education */
 
@@ -226,7 +229,7 @@ ul.timeline>li:before {
 
 .EXP-EDU {
   background-color: #FECE2E;
-  position: fixed;
+  position:static;
 }
 
 .backgroundTable {

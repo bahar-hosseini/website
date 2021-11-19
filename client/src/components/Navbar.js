@@ -1,6 +1,6 @@
 import React from "react"
-// import {HashLink as Link } from 'react-router-hash-link';
-// import {BrowserRouter as Router} from 'react-router-dom'
+import {HashLink as Link } from 'react-router-hash-link';
+import {BrowserRouter as Router} from 'react-router-dom'
 
 
 
@@ -10,15 +10,12 @@ function Navbar() {
  
 
     return ( 
-
-
-
-
+        <Router>
         <div className = "container">   
         <nav id = "mainNavbar"
         class = "navbar navbar-expand-md py-0 fixed-top " >
-        <a  href = "/"
-        className = "navbar-brand" > BH </a>
+        <Link  to = "/#"
+        className = "navbar-brand" > BH </Link>
         <button className = "navbar-toggler sm"
         dataToggle = "collapse"
         dataTarget = "#navLinks"
@@ -29,30 +26,29 @@ function Navbar() {
         id = "navLinks" >
         <ul className = "navbar-nav" >
         <li className = "nav-item" >
-        <a smooth href="#home"
-        className = "nav-link"> HOME </a>
+        <Link smooth activeClass="active" to="#home"
+        className = "nav-link" > HOME </Link>
         </li>
         <li className = "nav-item">
-        <a smooth href= "#about" 
-        className = "nav-link"> ABOUT </a>
+        <Link smooth to = "#about" 
+        className = "nav-link"> ABOUT </Link>
         </li>
         <li className = "nav-item" >
-        <a smooth href="#resume"
-        className = "nav-link" > RESUME </a>
+        <Link smooth to="#resume"
+        className = "nav-link" > RESUME </Link>
         </li>
         <li className = "nav-item" >
-        <a smooth href="#portfolio"
-        className = "nav-link" > PORTFOLIO </a> </li>
+        <Link  smooth to = "#portfolio"
+        className = "nav-link" > PORTFOLIO </Link> </li>
         <li className = "nav-item" >
-        <a  smooth href= "#contacts"
-        className = "nav-link" > CONTACTS </a>
+        <Link  smooth to= "#contacts"
+        className = "nav-link" > CONTACTS </Link>
         </li>
         </ul>
         </div>
         </nav>
         </div>
-
-
+  </Router>
         )
     }
     
