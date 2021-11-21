@@ -17,8 +17,8 @@ import Contact from "./Contact"
 
 function App() {
 
-    return (<div>
-    <main>
+    return (
+    <>
         <Navbar />
         <Sidebar />
         <Home />
@@ -28,8 +28,7 @@ function App() {
         <EduExp />   
         <Blog /> 
         <Contact />
-        </main>   
-</div>);
+        </>   );
     }
 
 export default App;

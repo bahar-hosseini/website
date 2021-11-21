@@ -60,7 +60,7 @@ function EduExp(){
                     <table className="table table-hover ">
                         <thead className="EXP-EDU ">
                             <tr>
-                                <th scope="col ">
+                                <th scope="col">
                                     <h3 className="text-center py-1">EXPERIENCE</h3>
                                 </th>
                             </tr>

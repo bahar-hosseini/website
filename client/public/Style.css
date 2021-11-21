@@ -34,9 +34,9 @@ body {
   background-color: #fff font-family 'Raleway', sans-serif;
   line-height: 1;
   max-width: 100% !important;
-  overflow-x: hidden;
-
+  overflow-x: hidden !important;
 }
+
 h2{
   color: #465680;
 }
@@ -55,10 +55,10 @@ q:before, q:after {
   content: none;
 }
 
-table {
+/* table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
 
 /*# sourceMappingURL=Style.css.map */
 
@@ -108,30 +108,65 @@ hr.about-line {
   background-color: #fff;
 }
 
- .sidebar { 
+ /* .sidebar { 
   position: fixed;
-  left: 98%;
+  left: 96%;
   top: 40%;
-  /* z-index: 1; */
-  }
-  @media screen and (max-width: 375px) {
+  } */
+
+  /*   MEDIA QUERY  */
+
+  @media  (max-width: 575.98px) {
   .sidebar {
   position: fixed;
-  left: 93%;
-  top: 40%;
-  z-index: 1;
+  left: 89%;
+  top: 35%;
+  /* z-index: 1; */
   }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .sidebar {
+    position: fixed;
+    left: 92%;
+    top: 35%;
+    }
+
+}
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  .sidebar {
+    position: fixed;
+    left: 95%;
+    top: 34%;
+    }
+ }
+
+ @media (min-width: 991.98px) and (max-width: 1199.98px) { 
+  .sidebar {
+    position: fixed;
+    left: 95%;
+    top: 37%;
+    }
+
+ }
+
+@media screen and (min-width: 1200px) {
+  .sidebar {
+  position: fixed;
+  left: 96%;
+  top: 40%;
+  }
+}
 
 
 .sidebar a { color: inherit; }
 
 
-#mainNavbar{
+/* #mainNavbar{
   position:fixed;
-  z-index: 1;
-}
+  z-index: 4;
+} */
 #mainNavbar .nav-link {
   color: #222831;
 }
@@ -303,7 +338,9 @@ background-size: cover;
 
 /* Blog */
 .blogImage{
+  position: relative;
   border-radius: 25px;
+  z-index: -1;
 }
 
 /* Animation Typing */

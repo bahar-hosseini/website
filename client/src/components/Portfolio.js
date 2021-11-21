@@ -5,6 +5,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 const Portfolio=()=>{
+  
     const slideImages = [
         '/images/portfolio.jpg',
         '/images/portfolio.jpg',
@@ -20,7 +21,7 @@ return(
             </div>
         </div>
 
-         <div className="bgPortfolio">
+         <div className="bgPortfolio container-fluid">
           <div className="align-self-center text-center">
                <div className='row'>
                

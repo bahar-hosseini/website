@@ -8,18 +8,20 @@ import {BrowserRouter as Router} from 'react-router-dom'
 
 function Navbar() {
  
-
     return ( 
-        <Router>
-        <div className = "">   
-        <nav id = "mainNavbar"
-        class = "navbar navbar-expand-md py-0 fixed-top " >
-        <Link  to = "/#"
+        <Router>  
+        <nav  id = "mainNavbar"
+        className = "navbar navbar-expand-lg fixed-top " >
+        <Link  to = "#"
         className = "navbar-brand" > BH </Link>
-        <button className = "navbar-toggler sm"
-        dataToggle = "collapse"
-        dataTarget = "#navLinks"
-        ariaLabel = "Toggle navigation" >
+        <button className = "navbar-toggler"
+        data-toggle = "collapse"
+        data-target = "#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-label = "Toggle navigation" 
+        aria-expanded="false"
+        >
+        
         <i className = "fas fa-bars " > </i>
         </button>
         <div className = "collapse navbar-collapse"
@@ -47,9 +49,9 @@ function Navbar() {
         </ul>
         </div>
         </nav>
-        </div>
+
   </Router>
-        )
+       )
     }
     
 
