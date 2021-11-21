@@ -8,9 +8,9 @@ return(<div>
             <i className="fas fa-magic "></i>
         </div>
     </div>
-   <div class="container-fluid">
+   <div class="">
         <div className="row skillTable bg-skills p-lg-1">
-            <div className="col-lg-6 table-responsive-lg p-3 ">
+            <div className="container col-lg-6 table-responsive-lg p-3 ">
                 <table className="table table-hover table-sm mr-5">
                     <thead class="table-dark ">
                         <tr>
@@ -51,7 +51,7 @@ return(<div>
                 </table>
             </div>
 
-            <div className=" col-lg-6 p-3 table-responsive">
+            <div className="container col-lg-6 p-3 table-responsive">
                 <table className="table table-hover table-sm mr-5">
                     <thead className="table-dark ">
                         <tr>
@@ -113,7 +113,7 @@ return(<div>
                 </table>
             </div>
 
-            <div className="col-lg-6 p-3 table-responsive ">
+            <div className=" container col-lg-6 p-3 table-responsive ">
                 <table className="table table-hover table-sm mr-3">
                     <thead className="table-dark ">
                         <tr>
@@ -139,7 +139,7 @@ return(<div>
                 </table>
             </div>
 
-            <div className=" col-lg-6 p-3 table-responsive ">
+            <div className="container col-lg-6 p-3 table-responsive ">
                 <table className="table table-hover table-sm mr-3">
                     <thead className="table-dark ">
                         <tr>

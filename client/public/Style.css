@@ -154,7 +154,7 @@ hr.about-line {
 @media screen and (min-width: 1200px) {
   .sidebar {
   position: fixed;
-  left: 96%;
+  left: 97%;
   top: 40%;
   }
 }
@@ -271,6 +271,7 @@ ul.timeline>li:before {
 .EXP-EDU {
   background-color: #FECE2E;
   position:static;
+  z-index: -1;
 }
 
 .backgroundTable {

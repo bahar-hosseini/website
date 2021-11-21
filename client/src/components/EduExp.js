@@ -17,7 +17,7 @@ function EduExp(){
     <section>
         <div className="">
             <div className="row bgResume">
-                <div className="col-lg-6 py-5 pr-5 pl-5">
+                <div className="container col-lg-6 py-5 pr-5 pl-5">
                     <table className="table table-hover">
                         <thead className="EXP-EDU">
                             <tr>
@@ -56,7 +56,7 @@ function EduExp(){
 
 
                 </div>
-                <div className="col-lg-6 py-5 pr-5">
+                <div className="container col-lg-6 py-5 pr-5">
                     <table className="table table-hover ">
                         <thead className="EXP-EDU ">
                             <tr>
