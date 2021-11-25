@@ -13,7 +13,7 @@ function About() {
     <div id="about" className='about'>
         <div className=" container-fluid px-2 about-container py-3">
             <div className="row align-items-center">
-                <img className="img-fluid col-lg-4 col-md-3 col-sm-3 profileBahar p-5" src={"/images/bahar.png"} alt=" Home IMG "/>
+                <img className="img-fluid col-lg-4 col-md-3 col-sm-2 profileBahar p-5" src={"/images/bahar.png"} alt=" Home IMG "/>
                 <div className="col-lg-8 col-sm-9">
                     <div className=" row text-center justify-content-start d-lg-inline-block animate__animated animate__bounce titleGroup ">
                         <div className="mb-5 titleGroup">

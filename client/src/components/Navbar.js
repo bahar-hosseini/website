@@ -10,6 +10,7 @@ function Navbar() {
  
     return ( 
         <Router>  
+        <div role='navigation'>
         <nav  id = "mainNavbar"
         className = "navbar navbar-expand-lg fixed-top " >
         <Link  to = "#"
@@ -50,6 +51,7 @@ function Navbar() {
         </div>
         </nav>
 
+  </div>
   </Router>
        )
     }

@@ -19,7 +19,7 @@ function Home() {
         {/* <AnimateText><h4> A FULL - STACK SOFTWARE ENGINEER </h4> </AnimateText> */}
         </div>
         </div>
-        <div className = "col-lg-8 col-sm-4 col-md-4 mt-5">
+        <div className = "col-lg-8 col-sm-6 col-md-6 mt-5">
         <img className = "float-end homeBg " src={'/images/web.gif'} alt='home page' />
         </div>
         <div id = "typewrite" className = "text-center my-3 py-3" >
