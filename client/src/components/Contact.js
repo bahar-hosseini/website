@@ -135,11 +135,11 @@ setMouseOver(true)
         </div>
     </form>
     
-    <div className = "col-xl-12 text-center footer" >
-    <a style={{color: 'inherit'}}  href='https://github.com/bahar-hosseini' className = "fab fa-github" target="_blank"></a> 
-    <a style={{color: 'inherit'}}  href='https://www.linkedin.com/in/maryam-hosseini-163310192/' className = "fab fa-linkedin" target="_blank" > </a>
-    <a style={{color: 'inherit'}}  href="mailto:bahar.hosseini@gmail.com" className = "fas fa-envelope-square"></a>
-    </div>
+    <footer className = "col-xl-12 text-center footer" >
+    <a style={{color: 'inherit'}}  href='https://github.com/bahar-hosseini' className = "fab fa-github" target="_blank" rel="noreferrer" > </a> 
+    <a style={{color: 'inherit'}}  href='https://www.linkedin.com/in/maryam-hosseini-163310192/' className = "fab fa-linkedin" target="_blank" rel="noreferrer"> </a>
+    <a style={{color: 'inherit'}}  href="mailto:bahar.hosseini@gmail.com" className = "fas fa-envelope-square" target="_blank" rel="noreferrer"> </a>
+    </footer>
     
     <p className="text-white text-center"><small>© copyright 2021 designed with &#129505; by BAHAR</small></p>
     

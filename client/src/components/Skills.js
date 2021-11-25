@@ -15,7 +15,7 @@ return(<div>
                     <thead class="table-dark ">
                         <tr>
                             <th scope="col">Languages</th>
-                            <th scope="col" colspan="5">Frameworks / Libraries</th>
+                            <th scope="col" colspan="6">Frameworks / Libraries</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -26,6 +26,7 @@ return(<div>
                             <td>Next.js</td>
                             <td>JQuery</td>
                             <td>TypeScript</td>
+                            <td>Gatsby</td>
                         </tr>
                         <tr>
                             <th scope="row ">NodeJS</th>
@@ -55,7 +56,7 @@ return(<div>
                 <table className="table table-hover table-sm mr-5">
                     <thead className="table-dark ">
                         <tr>
-                            <th scope="col " colspan="5 ">Other Skills</th>
+                            <th scope="col " colspan="6">Other Skills</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -96,7 +97,7 @@ return(<div>
                         </tr>
 
                         <tr>
-                            <th scope="row ">cloud services:AWS</th>
+                            <th scope="row ">cloud services: AWS</th>
                             <td>Lambda</td>
                             <td>S3</td>
                             <td>EC2</td>
