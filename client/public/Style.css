@@ -94,7 +94,7 @@ small {
 /* Big Heading*/
 
 p {
-  font-size: 1rem;
+  font-size: 0.5rem;
   line-height: 2;
   font-weight: 100;
 }
@@ -124,7 +124,7 @@ hr.about-line {
   position: fixed;
   left: 88%;
   top: 35%;
-  /* z-index: 1; */
+  z-index: 4000;
   }
  
   }
@@ -167,10 +167,10 @@ hr.about-line {
 .sidebar a { color: inherit; }
 
 
-/* #mainNavbar{
+#mainNavbar{
   position:fixed;
   z-index: 4;
-} */
+}
 #mainNavbar .nav-link {
   color: #222831;
 }
