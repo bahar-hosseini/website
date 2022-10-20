@@ -47,7 +47,7 @@ const Portfolio = () => {
                     }}
                   ></div>
 
-                  <button
+                  {/* <button
                     className='btn text-center rounded-pill my-3'
                     type='submit '
                     name='button '
@@ -60,7 +60,7 @@ const Portfolio = () => {
                     >
                       cmpr
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </a>
               <a
@@ -76,7 +76,7 @@ const Portfolio = () => {
                       borderRadius: '30px',
                     }}
                   ></div>
-                  <button
+                  {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -88,7 +88,7 @@ const Portfolio = () => {
                     >
                       buy-sell-listing-website
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </a>
               <a
@@ -104,7 +104,7 @@ const Portfolio = () => {
                       borderRadius: '30px',
                     }}
                   ></div>
-                  <button
+                  {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -116,7 +116,7 @@ const Portfolio = () => {
                     >
                       jungle-rails
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </a>
               <a
@@ -132,7 +132,7 @@ const Portfolio = () => {
                       borderRadius: '30px',
                     }}
                   ></div>
-                  <button
+                  {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -144,7 +144,7 @@ const Portfolio = () => {
                     >
                       scheduler
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </a>
               <a
@@ -160,7 +160,7 @@ const Portfolio = () => {
                       borderRadius: '30px',
                     }}
                   ></div>
-                  <button
+                  {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -172,7 +172,7 @@ const Portfolio = () => {
                     >
                       tweeter
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </a>
             </Slide>
