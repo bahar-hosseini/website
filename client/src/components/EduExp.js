@@ -46,6 +46,10 @@ function EduExp() {
                       <th scope='row '>
                         <ul className='timeline '>
                           <li>
+                            <h4>Diploma of Education</h4>
+                            <p>Lighthouse Labs</p>
+                          </li>
+                          <li>
                             <h4>Master of Industrial Engineering</h4>
                             {/* <a href="# " className="float-right ">21 March, 2014</a> */}
                             <p>Science and Research, Tehran, Iran</p>

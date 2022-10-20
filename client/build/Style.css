@@ -214,7 +214,7 @@ hr.about-line {
 
 .titleGroup p {
   font-weight: 40;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .titleGroup span {
@@ -251,7 +251,7 @@ ul.timeline:before {
   left: 29px;
   width: 2px;
   height: 100%;
-  z-index: 400;
+  z-index: 1;
 }
 
 ul.timeline>li {
@@ -269,7 +269,7 @@ ul.timeline>li:before {
   left: 20px;
   width: 20px;
   height: 20px;
-  z-index: 400;
+  z-index: 1;
 }
 
 .EXP-EDU {
@@ -292,25 +292,29 @@ ul.timeline>li:before {
   align-items: center;
   justify-content: center;
   border: 10px solid #222831;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
+  padding: 0 5% 5% 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
+.each-slide{
+border-radius: 8px;
+}
 .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
-  height: 350px;
-  width: auto;
-  
+  background-size: contain;
+  background-repeat: no-repeat;
+ height: 100vh;
+  /* width: 100vw; */
+
 }
 
 .each-slide span {
   font-size: 20px;
   background: #efefef;
   text-align: center;
+  padding: 30px;
 }
 
 /* Resume */
