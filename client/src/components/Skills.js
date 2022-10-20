@@ -154,7 +154,7 @@ function Skills() {
             <table className='table table-hover table-sm mr-3'>
               <thead className='table-dark '>
                 <tr>
-                  <th scope='col' colspan='5'>
+                  <th scope='col' colspan='6'>
                     Automated Testing
                   </th>
                 </tr>

@@ -42,7 +42,7 @@ h2{
 }
 
 ol, ul {
-  list-style: none;
+  list-style: circle;
 }
 
 blockquote, q {
@@ -94,7 +94,7 @@ small {
 /* Big Heading*/
 
 p {
-  font-size: 0.5rem;
+  font-size:1rem;
   line-height: 2;
   font-weight: 100;
 }
@@ -111,6 +111,11 @@ hr.about-line {
   background-color: #fff;
 }
 
+.sidebar{
+  /* z-index: 4000; */
+  /* top: 80%; */
+
+}
  /* .sidebar { 
   position: fixed;
   left: 96%;
@@ -160,6 +165,7 @@ hr.about-line {
   position: fixed;
   left: 97%;
   top: 40%;
+    z-index: 4000;
   }
 }
 
@@ -167,10 +173,10 @@ hr.about-line {
 .sidebar a { color: inherit; }
 
 
-#mainNavbar{
+/* #mainNavbar{
   position:fixed;
   z-index: 4;
-}
+} */
 #mainNavbar .nav-link {
   color: #222831;
 }
@@ -214,7 +220,7 @@ hr.about-line {
 
 .titleGroup p {
   font-weight: 40;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .titleGroup span {
@@ -289,10 +295,12 @@ ul.timeline>li:before {
   background-size: cover;
 }
 .slider{
+/* 
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   border: 10px solid #222831;
-  padding: 0 5% 5% 5%;
+  padding: 0 5% 0 5%;
+
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -305,7 +313,7 @@ border-radius: 8px;
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
- height: 100vh;
+ height: 80vh;
   /* width: 100vw; */
 
 }
