@@ -63,18 +63,6 @@ function EduExp() {
                               Iran
                             </p>
                           </li>
-                          <li>
-                            <a href='# '>Awesome Employers</a>
-                            <a href='# ' className='float-right '>
-                              1 April, 2014
-                            </a>
-                            <p>
-                              Fusce ullamcorper ligula sit amet quam accumsan
-                              aliquet. Sed nulla odio, tincidunt vitae nunc
-                              vitae, mollis pharetra velit. Sed nec tempor
-                              nibh...
-                            </p>
-                          </li>
                         </ul>
                       </th>
                     </div>
