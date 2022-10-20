@@ -161,10 +161,12 @@ function Skills() {
               </thead>
               <tbody>
                 <tr>
-                  <th scope='row '>NodeJS & JavaScript</th>
+                  <th scope='row '>NodeJS & JavaScript & React</th>
                   <td>Mocha</td>
                   <td>Chai</td>
-                  <td>Jasmine</td>
+                  <td>Jest</td>
+                  <td>Cypress</td>
+                  <td>Storybook</td>
                 </tr>
               </tbody>
             </table>

@@ -337,12 +337,14 @@ small {
 /*   Skill   */
 .skillTable{
 position:relative;
-z-index: -1;
+z-index: 1;
+
 }
 
 .bg-skills {
-background-image: url('./images/main-grey-bg.jpg');
-background-size: cover;
+/* background-image: url('./images/main-grey-bg.jpg');
+background-size: cover; */
+
 }
 
 /* Blog */
