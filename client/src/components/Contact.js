@@ -132,7 +132,7 @@ function Contact() {
           </a>
           <a
             style={{ color: 'inherit' }}
-            href='https://www.linkedin.com/in/maryam-hosseini-163310192/'
+            href='https://www.linkedin.com/in/bahar-hosseini/'
             className='fab fa-linkedin'
             target='_blank'
             rel='noreferrer'
