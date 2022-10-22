@@ -37,7 +37,9 @@ function Sidebar() {
                     href='mailto:bahar.hosseini@gmail.com'
                     className='fas fa-envelope-square'
                     rel='noreferrer'
-                  ></a>
+                  >
+                    {' '}
+                  </a>
                 </th>
               </tr>
             </tbody>
