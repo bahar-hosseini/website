@@ -151,7 +151,7 @@ function Contact() {
         </footer>
 
         <p className='text-white text-center'>
-          <small>© copyright 2021 designed with &#129505; by BAHAR</small>
+          <small>© copyright 2022 designed with &#129505; by BAHAR</small>
         </p>
 
         <ToastContainer />
