@@ -14,7 +14,9 @@ function Sidebar() {
                     className='fab fa-github'
                     target='_blank'
                     rel='noreferrer'
-                  ></a>
+                  >
+                    {' '}
+                  </a>
                 </th>
               </tr>
               <tr>
