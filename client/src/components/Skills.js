@@ -47,6 +47,9 @@ function Skills() {
                   <td>Ruby on Rails</td>
                 </tr>
                 <tr>
+                  <th scope='row '>Python</th>
+                </tr>
+                <tr>
                   <th scope='row '>HTML & CSS</th>
                   <td>LESS</td>
                   <td>SASS/SCSS</td>
