@@ -46,7 +46,9 @@ function EduExp() {
                       <th scope='row '>
                         <ul className='timeline '>
                           <li>
-                            <h4>Diploma of Education</h4>
+                            <h4>
+                              Diploma of Education, Full-Stack Web Developer
+                            </h4>
                             <p>Lighthouse Labs</p>
                           </li>
                           <li>
