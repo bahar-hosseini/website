@@ -1,15 +1,16 @@
-import React from 'react'
-import { Slide } from 'react-slideshow-image'
-import 'react-slideshow-image/dist/styles.css'
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 const Portfolio = () => {
   const slideImages = [
     '/images/01-campr.png',
     '/images/buy-sell-listing-website.png',
+    '/images/game-station.png',
     '/images/jungle-rails.png',
     '/images/scheduler.gif',
     '/images/tweeter.png',
-  ]
+  ];
 
   return (
     <div>
@@ -43,7 +44,6 @@ const Portfolio = () => {
                   <div
                     style={{
                       backgroundImage: `url(${slideImages[0]})`,
-                      borderRadius: '30px',
                     }}
                   ></div>
 
@@ -73,7 +73,7 @@ const Portfolio = () => {
                   <div
                     style={{
                       backgroundImage: `url(${slideImages[1]})`,
-                      borderRadius: '30px',
+                      // borderRadius: '30px',
                     }}
                   ></div>
                   {/* <button
@@ -93,7 +93,7 @@ const Portfolio = () => {
               </a>
               <a
                 style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/jungle-rails'
+                href='https://github.com/bahar-hosseini/online_shop'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -101,7 +101,20 @@ const Portfolio = () => {
                   <div
                     style={{
                       backgroundImage: `url(${slideImages[2]})`,
-                      borderRadius: '30px',
+                    }}
+                  ></div>
+                </div>
+              </a>
+              <a
+                style={{ color: 'inherit' }}
+                href='https://github.com/bahar-hosseini/jungle-rails'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <div className='each-slide'>
+                  <div
+                    style={{
+                      backgroundImage: `url(${slideImages[3]})`,
                     }}
                   ></div>
                   {/* <button
@@ -128,8 +141,7 @@ const Portfolio = () => {
                 <div className='each-slide'>
                   <div
                     style={{
-                      backgroundImage: `url(${slideImages[3]})`,
-                      borderRadius: '30px',
+                      backgroundImage: `url(${slideImages[4]})`,
                     }}
                   ></div>
                   {/* <button
@@ -156,8 +168,7 @@ const Portfolio = () => {
                 <div className='each-slide'>
                   <div
                     style={{
-                      backgroundImage: `url(${slideImages[4]})`,
-                      borderRadius: '30px',
+                      backgroundImage: `url(${slideImages[5]})`,
                     }}
                   ></div>
                   {/* <button
@@ -180,7 +191,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

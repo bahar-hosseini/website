@@ -84,7 +84,19 @@ small {
 .profileBahar{
   border-radius: 30%;
 }
+h3{
+  text-transform:capitalize;
+  font-size: 3.5rem;
+  padding-top: 0.5rem;
+ 
+}
+.each-slide >div{
+  border-radius: 30px;
+  margin:0 8%;
 
+width: 75vw;
+height: auto;
+}
 /* @media screen and (max-width: 375px) {
   h2,span {
     font-size: 10px;

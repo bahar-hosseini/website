@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function EduExp() {
   return (
@@ -16,7 +16,7 @@ function EduExp() {
             >
               <a
                 style={{ color: 'inherit' }}
-                href='Bahar_Hosseini_Resume.pdf'
+                href='Resume-Bahar Hosseini.pdf'
                 download
                 className='far fa-file '
               >
@@ -86,6 +86,26 @@ function EduExp() {
                     <div>
                       <th scope='row '>
                         <ul className='timeline '>
+                          <li>
+                            <h4>Software Developer</h4>
+                            <h6>
+                              <b>Code the Change YYC [volunteer]</b>
+                            </h6>
+                            <ul>
+                              <li>
+                                Full-Stack application to manage charity
+                                fundraising
+                              </li>
+                              <li>
+                                Developing APIs to track shipping & inventory
+                              </li>
+                              <li>
+                                Frontend interface creation, online payment
+                                processor integration
+                              </li>
+                            </ul>
+                          </li>
+
                           <li>
                             <h4>Project Manager</h4>
                             <h6>
@@ -163,6 +183,6 @@ function EduExp() {
         </div>
       </section>
     </div>
-  )
+  );
 }
-export default EduExp
+export default EduExp;
