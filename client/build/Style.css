@@ -21,7 +21,6 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  overflow-y: overlay;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -55,13 +54,6 @@ q:before, q:after {
   content: none;
 }
 
-/* table {
-  border-collapse: collapse;
-  border-spacing: 0;
-} */
-
-/*# sourceMappingURL=Style.css.map */
-
 
 /****************************************************************************/
 
@@ -93,17 +85,9 @@ h3{
 .each-slide >div{
   border-radius: 30px;
   margin:0 8%;
-
 width: 75vw;
 height: auto;
 }
-/* @media screen and (max-width: 375px) {
-  h2,span {
-    font-size: 10px;
-  }
-} */
-
-/* Big Heading*/
 
 p {
   font-size:1rem;
@@ -116,23 +100,6 @@ hr.about-line {
   border-radius: 4px;
 }
 
-#mainNavbar {
-  font-size: 1.5 rem;
-  font-weight: 100;
-  font-family: 'Raleway, Nunito, Arial, Helvetica, sans-serif';
-  background-color: #fff;
-}
-
-.sidebar{
-  /* z-index: 4000; */
-  /* top: 80%; */
-
-}
- /* .sidebar { 
-  position: fixed;
-  left: 96%;
-  top: 40%;
-  } */
 
   /*   MEDIA QUERY  */
 
@@ -143,8 +110,8 @@ hr.about-line {
   top: 35%;
   z-index: 4000;
   }
- 
-  }
+
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .sidebar {
@@ -185,10 +152,21 @@ hr.about-line {
 .sidebar a { color: inherit; }
 
 
-/* #mainNavbar{
-  position:fixed;
-  z-index: 4;
-} */
+#mainNavbar {
+  position: fixed;
+  font-size: 1.75 rem;
+  font-weight: 100;
+  font-family: 'Raleway, Nunito, Arial, Helvetica, sans-serif';
+  background-color: #fff;
+
+z-index: 100;
+
+}
+.container-navbar{
+  background-color: #fff;
+  width: 100vw;
+}
+
 #mainNavbar .nav-link {
   color: #222831;
 }
@@ -313,34 +291,27 @@ ul.timeline>li:before {
 /* 
   align-items: center;
   justify-content: center; */
-  border: 10px solid #222831;
+  border:  solid #222831;
   padding: 0 5% 0 5%;
 
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* .each-slide{
+.each-slide{
 border-radius: 8px;
-} */
-/* .each-slide > div {
+}
+.each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
  height: 80vh;
-  width: 100vw;
+  width: 75vw;
+  padding: 5;
 
-} */
-.each-slide >div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: contain;
-  background-repeat: no-repeat;
- height: 30vh;
-  width: 70vw;
 }
+
 
 .each-slide span {
   font-size: 20px;
@@ -370,12 +341,6 @@ small {
 .skillTable{
 position:relative;
 z-index: 1;
-
-}
-
-.bg-skills {
-/* background-image: url('./images/main-grey-bg.jpg');
-background-size: cover; */
 
 }
 
