@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
   return (
@@ -23,7 +23,7 @@ function About() {
                     {' '}
                     <span>ABOUT</span> ME
                   </h2>
-                  <p className='text-light lead '>
+                  <p className='text-light lead  pr-5'>
                     {' '}
                     I am a passionate full-stack developer who loves solving
                     real-world problems using software. I have experience
@@ -51,7 +51,7 @@ function About() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
