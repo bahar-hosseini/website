@@ -21,7 +21,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-
+  overflow-y: overlay;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -319,18 +319,27 @@ ul.timeline>li:before {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.each-slide{
+/* .each-slide{
 border-radius: 8px;
-}
-.each-slide > div {
+} */
+/* .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
  height: 80vh;
-  /* width: 100vw; */
+  width: 100vw;
 
+} */
+.each-slide >div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+ height: 30vh;
+  width: 70vw;
 }
 
 .each-slide span {
