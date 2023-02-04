@@ -238,6 +238,9 @@ hr.about-line {
 .titleGroup span {
   color: #FECE2E;
 }
+#about p{
+  font-size: 1.35rem;
+}
 
 .btn {
   background: linear-gradient(#ffd369, #F9BE50);
