@@ -288,11 +288,12 @@ ul.timeline>li:before {
   background-size: cover;
 }
 .slider{
-/* 
+
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   border:  solid #222831;
-  padding: 0 5% 0 5%;
+  padding: 0 1% 0 10%;
+  
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -308,7 +309,7 @@ border-radius: 8px;
   background-repeat: no-repeat;
  height: 80vh;
   width: 75vw;
-  padding: 5;
+  margin: 0 20px 100px 20px;
 
 }
 

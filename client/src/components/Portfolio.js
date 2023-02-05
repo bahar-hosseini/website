@@ -33,21 +33,22 @@ const Portfolio = () => {
             <div id='typewrite' className='text-center titleGroup p-5'>
               <h3>Click on a product to learn more</h3>
             </div>
-            <Slide easing='ease' className='slider'>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/camping-app'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[0]})`,
-                    }}
-                  ></div>
+            <div className='container'>
+              <Slide easing='ease' className='slider'>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/camping-app'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[0]})`,
+                      }}
+                    ></div>
 
-                  {/* <button
+                    {/* <button
                     className='btn text-center rounded-pill my-3'
                     type='submit '
                     name='button '
@@ -61,22 +62,22 @@ const Portfolio = () => {
                       cmpr
                     </a>
                   </button> */}
-                </div>
-              </a>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/buy-sell-listing-website'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[1]})`,
-                      // borderRadius: '30px',
-                    }}
-                  ></div>
-                  {/* <button
+                  </div>
+                </a>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/buy-sell-listing-website'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[1]})`,
+                        // borderRadius: '30px',
+                      }}
+                    ></div>
+                    {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -89,35 +90,35 @@ const Portfolio = () => {
                       buy-sell-listing-website
                     </a>
                   </button> */}
-                </div>
-              </a>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/online_shop'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[2]})`,
-                    }}
-                  ></div>
-                </div>
-              </a>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/jungle-rails'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[3]})`,
-                    }}
-                  ></div>
-                  {/* <button
+                  </div>
+                </a>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/online_shop'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[2]})`,
+                      }}
+                    ></div>
+                  </div>
+                </a>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/jungle-rails'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[3]})`,
+                      }}
+                    ></div>
+                    {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -130,21 +131,21 @@ const Portfolio = () => {
                       jungle-rails
                     </a>
                   </button> */}
-                </div>
-              </a>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/scheduler'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[4]})`,
-                    }}
-                  ></div>
-                  {/* <button
+                  </div>
+                </a>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/scheduler'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[4]})`,
+                      }}
+                    ></div>
+                    {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -157,21 +158,21 @@ const Portfolio = () => {
                       scheduler
                     </a>
                   </button> */}
-                </div>
-              </a>
-              <a
-                style={{ color: 'inherit' }}
-                href='https://github.com/bahar-hosseini/tweeter'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='each-slide'>
-                  <div
-                    style={{
-                      backgroundImage: `url(${slideImages[5]})`,
-                    }}
-                  ></div>
-                  {/* <button
+                  </div>
+                </a>
+                <a
+                  style={{ color: 'inherit' }}
+                  href='https://github.com/bahar-hosseini/tweeter'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='each-slide'>
+                    <div
+                      style={{
+                        backgroundImage: `url(${slideImages[5]})`,
+                      }}
+                    ></div>
+                    {/* <button
                     className='btn text-center rounded-pill my-3'
                     name='button '
                   >
@@ -184,9 +185,10 @@ const Portfolio = () => {
                       tweeter
                     </a>
                   </button> */}
-                </div>
-              </a>
-            </Slide>
+                  </div>
+                </a>
+              </Slide>
+            </div>
           </div>
         </div>
       </div>
